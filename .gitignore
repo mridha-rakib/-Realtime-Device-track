@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.idea/
+
+# Coverage directory
+coverage/
+
+# Build artifacts
+dist/
+build/
+
+# Optional: if you're using PM2 or other process managers
+pids/
+*.pid
+*.log
+
+# Uploads or temp files (optional if your app handles file uploads)
+uploads/
+tmp/
+
+# NPM cache
+.npm/
+
+# Socket.io temp/debug (if applicable)
+debug.log
+
+# EJS template caches (though EJS typically compiles in memory, no cache folder by default)
+*.ejs.cache
+
+# Optional: local database files (e.g., SQLite)
+*.sqlite
+*.db
+
+# Optional: logs folder
+/log
+*.gz
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
